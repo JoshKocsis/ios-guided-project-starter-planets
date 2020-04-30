@@ -9,7 +9,8 @@
 import Foundation
 
 class PlanetController {
-    var planets = [
+    var planets: [Planet] {
+        var planets = [
         Planet(name: "Mercury", imageName: "mercury"),
         Planet(name: "Venus", imageName: "venus"),
         Planet(name: "Earth", imageName: "earth"),
@@ -19,4 +20,12 @@ class PlanetController {
         Planet(name: "Uranus", imageName: "uranus"),
         Planet(name: "Neptune", imageName: "neptune"),
         ]
+        
+        if UserDefaults.standard.bool(forKey: .shouldShowPlutoKey) {
+            let pluto = Planet(name: "Pluto", imageName: "pluto")
+            planets.append(pluto)
+        }
+        
+        return planets
+    }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514D8E25245A69C00082E79E /* PlanetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D8E24245A69C00082E79E /* PlanetsCollectionViewController.swift */; };
+		514D8E27245A69DD0082E79E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D8E26245A69DD0082E79E /* SettingsViewController.swift */; };
+		514D8E2A245A6A5F0082E79E /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D8E29245A6A5F0082E79E /* PlanetCollectionViewCell.swift */; };
+		514D8E2C245A761A0082E79E /* SettingsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514D8E2B245A761A0082E79E /* SettingsKeys.swift */; };
 		9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD062113609700A55978 /* AppDelegate.swift */; };
 		9DDBBD0C2113609700A55978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0A2113609700A55978 /* Main.storyboard */; };
 		9DDBBD0E2113609800A55978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDBBD0D2113609800A55978 /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		514D8E24245A69C00082E79E /* PlanetsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsCollectionViewController.swift; sourceTree = "<group>"; };
+		514D8E26245A69DD0082E79E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		514D8E29245A6A5F0082E79E /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
+		514D8E2B245A761A0082E79E /* SettingsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsKeys.swift; sourceTree = "<group>"; };
 		9DDBBD032113609700A55978 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDBBD062113609700A55978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DDBBD0B2113609700A55978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,8 +48,18 @@
 		27F670EB21EFC6AA0035C1BF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				514D8E24245A69C00082E79E /* PlanetsCollectionViewController.swift */,
+				514D8E26245A69DD0082E79E /* SettingsViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		514D8E28245A6A2C0082E79E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				514D8E29245A6A5F0082E79E /* PlanetCollectionViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		9DDBBCFA2113609700A55978 = {
@@ -67,7 +85,9 @@
 				27F670EB21EFC6AA0035C1BF /* View Controllers */,
 				9DDBBD1A211360D500A55978 /* Model */,
 				9DDBBD1C211360E000A55978 /* Model Controller */,
+				514D8E28245A6A2C0082E79E /* Views */,
 				9DDBBD1B211360DA00A55978 /* Resources */,
+				514D8E2B245A761A0082E79E /* SettingsKeys.swift */,
 			);
 			path = Planets;
 			sourceTree = "<group>";
@@ -173,7 +193,11 @@
 			files = (
 				9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */,
 				9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */,
+				514D8E2A245A6A5F0082E79E /* PlanetCollectionViewCell.swift in Sources */,
+				514D8E25245A69C00082E79E /* PlanetsCollectionViewController.swift in Sources */,
+				514D8E27245A69DD0082E79E /* SettingsViewController.swift in Sources */,
 				9DDBBD19211360D100A55978 /* Planet.swift in Sources */,
+				514D8E2C245A761A0082E79E /* SettingsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
